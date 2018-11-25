@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/login/index",
     "pages/my/index",
-    "pages/cart/index",
+    "pages/index/index",
     "pages/classify/index",
-    "pages/index/index"
-    
+    "pages/cart/index"
   ],
   "window": {
     "backgroundTextStyle": "white",

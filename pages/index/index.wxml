@@ -2,7 +2,6 @@
   <!-- banner -->
   <template name="banner">
     <swiper indicator-dots="true" circular="true" autoplay="{{data.customFeature.autoplay}}" vertical="{{data.customFeature.vertical}}" interval="{{data.customFeature.interval*1000}}" duration="750" style="{{data.style}}">
-
       <block wx:for="{{data.content}}">
         <swiper-item data-event-params="{{item.eventParams}}" catchtap="{{item.eventHandler}}">
           <image class="swiper-item" src="{{item.pic}}" />
@@ -18,7 +17,7 @@
   <!-- 导航 -->
   <template name="zcPicture">
     <block>
-      <view class="element picture" style="{{data.style}}" data-imgArr="{{data.content}}" catchtap="{          {data.eventHandler}}">
+      <view class="element picture" style="{{data.style}}" data-id="{{data.id}}" data-imgArr="{{data.content}}" catchtap="{{data.eventHandler}}">
         <image src="{{data.content}}"></image>
       </view>
     </block>
@@ -31,10 +30,10 @@
   </view>
   <!-- 图片 -->
   <template name="menus">
-    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+    <view class="element free-vessel" style="{{data.style}}" >
       <view class="ele-container">
         <block>
-          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+          <template is="zcPicture" data="{{data:data.content[0]}}" ></template>
         </block>
       </view>
       <view class="ele-container">
@@ -182,7 +181,7 @@
 
 
   <!-- 推荐商品 TITLE -->
-    <template name="recommend_text">
+  <template name="recommend_text">
     <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
       <import src="../../components/wxParse/wxParse.wxml" />
       <template name="zcText">
@@ -203,15 +202,15 @@
     </view>
   </template>
   <view class="ele-container">
-   
+
     <block>
       <template is="recommend_text" data="{{data:recommend_text}}"></template>
     </block>
   </view>
-<!-- 推荐商品 TITLE END-->
+  <!-- 推荐商品 TITLE END-->
 
-<!-- 推荐商品 内容  先3图  后3字-->
- <template name="recommend_content">
+  <!-- 推荐商品 内容  先3图  后3字-->
+  <template name="recommend_content">
     <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
       <view class="ele-container">
         <block>
@@ -223,7 +222,7 @@
           <template is="zcPicture" data="{{data:data.content[1]}}"></template>
         </block>
       </view>
-       <view class="ele-container">
+      <view class="ele-container">
         <block>
           <template is="zcPicture" data="{{data:data.content[2]}}"></template>
         </block>
@@ -258,7 +257,7 @@
       <template is="recommend_content" data="{{data:recommend_content}}"></template>
     </block>
   </view>
-<!-- 推荐商品 内容 END -->
+  <!-- 推荐商品 内容 END -->
 
   <!-- 人气商品 TITLE -->
   <template name="hot_text">
@@ -303,13 +302,13 @@
           <template is="zcPicture" data="{{data:data.content[0]}}"></template>
         </block>
       </view>
-       <view class="ele-container">
+      <view class="ele-container">
         <block>
           <template is="zcPicture" data="{{data:data.content[1]}}"></template>
         </block>
       </view>
-       <import src="../../components/wxParse/wxParse.wxml" />
-       <view class="ele-container">
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <view class="ele-container">
         <block>
           <template is="zcText" data="{{data:data.content[2]}}"></template>
         </block>
@@ -331,7 +330,7 @@
           <template is="zcText" data="{{data:data.content[5]}}"></template>
         </block>
       </view>
-      
+
       <view class="ele-container">
         <block>
           <template is="zcPicture" data="{{data:data.content[6]}}"></template>
@@ -348,7 +347,7 @@
           <template is="zcText" data="{{data:data.content[8]}}"></template>
         </block>
       </view>
-      
+
       <view class="ele-container">
         <block>
           <template is="zcPicture" data="{{data:data.content[9]}}"></template>
@@ -396,9 +395,9 @@
   </view>
   <!-- 人气商品 内容 END -->
 
-<!-- 图片观赏 -->
+  <!-- 图片观赏 -->
   <view class="ele-container">
     <template is="banner" data="{{data:hot_image}}"></template>
   </view>
-<!-- 图片观赏 END -->
+  <!-- 图片观赏 END -->
 </view>

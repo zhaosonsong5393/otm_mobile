@@ -53,133 +53,119 @@ defaultData.data = {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:75rpx;top:35.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f84f999.png",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index":1
+      "id": 1,
+      "eventHandler": "classify_click",
     }, 
     {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:243.75rpx;top:35.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f845519.png",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 2
+      "id": 2,
+      "eventHandler": "classify_click",
     }, 
     {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:412.5rpx;top:35.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f8d0b45.png",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 3
+      "id": 3,
+      "eventHandler": "classify_click",
     }, 
     {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:581.25rpx;top:35.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f8576d3.png",     
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 4
+      
+      "eventHandler": "classify_click",
+      "id": 4
     },
     {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:75rpx;top:210.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f8576d3.png",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 5
+      
+      "eventHandler": "classify_click",
+      "id": 5
     },
     {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:243.75rpx;top:210.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f8576d3.png",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 6
+      "eventHandler": "classify_click",
+      "id": 6
     },
     {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:412.5rpx;top:210.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f8576d3.png",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 7
+      "eventHandler": "classify_click",
+      "id": 7
     },
     {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:93.75rpx;width:93.75rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:581.25rpx;top:210.15625rpx;",
       "content": "http:\/\/img.weiye.me\/zcimgdir\/album\/file_591c13f8576d3.png",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 8
+      "eventHandler": "classify_click",
+      "id": 8
     },
     //字
     {
      "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:65.625rpx;top:150rpx;margin-right:0;",
       "content": "月子中心",
-      "eventParams": "{\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index":11
+      "eventHandler": "classify_click",
+      "id":1
     }, 
     {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:234.375rpx;top:150rpx;margin-right:0;",
       "content": "母婴用品",
-      "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/page10016\\\/page10016\",\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 12
+      "eventHandler": "classify_click",
+      "id": 2
     }, 
     {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:403.125rpx;top:150rpx;margin-right:0;",
       "content": "产后康复",
-      "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/page10022\\\/page10022\",\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 13
+      "eventHandler": "classify_click",
+      "id": 3
     },
     {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:576.5625rpx;top:150rpx;margin-right:0;",
       "content": "最新活动",
-      "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/page10021\\\/page10021\",\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 14
+      "eventHandler": "classify_click",
+      "id": 4
     },
     {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:65.625rpx;top:310rpx;margin-right:0;",
       "content": "增值业务",
-      "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/page10021\\\/page10021\",\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 15
+      "eventHandler": "classify_click",
+      "id": 5
     }
     ,
     {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:234.375rpx;top:310rpx;margin-right:0;",
       "content": "本土特产",
-      "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/page10021\\\/page10021\",\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 16
+      "eventHandler": "classify_click",
+      "id": 6
     }
     ,
     {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:403.125rpx;top:310rpx;margin-right:0;",
       "content": "新闻资讯",
-      "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/page10021\\\/page10021\",\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 17
+      "eventHandler": "classify_click",
+      "id": 7
     }
     ,
     {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:25.78125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:576.5625rpx;top:310rpx;margin-right:0;",
       "content": "会所介绍",
-      "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/page10021\\\/page10021\",\"is_redirect\":0}",
-      "eventHandler": "tapInnerLinkHandler",
-      "index": 18
+      "eventHandler": "classify_click",
+      "id": 8
     }
     ]
   },

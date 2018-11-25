@@ -8,7 +8,8 @@
         </image>
         <label class="nickname">
          <text wx:if="{{userinfo.nickName}}">{{userinfo.nickName}}</text>
-         <text wx:else bindtap="toLogin">注册 / 登录</text>
+          <text wx:else bindgetuserinfo="bindGetUserInfo" open-type="getUserInfo">注册 / 登录</text>
+          
          </label>
         <label class="ico-moon icon-rightarrow">
         </label>
@@ -47,5 +48,4 @@
       </view>
     </view>
   </view>
- 
 </view>
