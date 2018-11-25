@@ -1,0 +1,51 @@
+<view class="app">
+  <view class="ele-container">
+    <view class="user-center usercenter-mode1 background-ele with-horizontal-view">
+      <view class="show-view" data-router="userCenter" style='background:#FFC63C'>
+        <label class="empty-span">
+        </label>
+        <image class="cover-thumb" src="{{userinfo.avatarUrl ? userinfo.avatarUrl:'../../images/avatar.png'}}">
+        </image>
+        <label class="nickname">
+         <text wx:if="{{userinfo.nickName}}">{{userinfo.nickName}}</text>
+         <text wx:else bindtap="toLogin">注册 / 登录</text>
+         </label>
+        <label class="ico-moon icon-rightarrow">
+        </label>
+      </view>
+      <view class="horizontal-view">
+        <view class="horizontal-router-container1">
+          <view data-open-verify-phone="false" data-router="myMessage" style="margin-top: -1px">
+            <label class="ico-moon icon-notify">
+            </label>
+            <text>系统通知</text>
+            <label class="ico-moon icon-rightarrow">
+            </label>
+          </view>
+          <view data-open-verify-phone="false" data-router="vipCard" style="margin-top: -1px">
+            <label class="ico-moon icon-vip-card">
+            </label>
+            <text>我的订单</text>
+            <label class="ico-moon icon-rightarrow">
+            </label>
+          </view>
+          <view data-open-verify-phone="false" data-router="myIntegral" style="margin-top: -1px">
+            <label class="ico-moon icon-delicious">
+            </label>
+            <text>我的收藏</text>
+            <label class="ico-moon icon-rightarrow">
+            </label>
+          </view>
+          <view data-open-verify-phone="false" data-router="myIntegral" style="margin-top: -1px">
+            <label class="ico-moon icon-integral">
+            </label>
+            <text>积分</text>
+            <label class="ico-moon icon-rightarrow">
+            </label>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+ 
+</view>

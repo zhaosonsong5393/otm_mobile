@@ -1,0 +1,149 @@
+<view class="app">
+
+  <view class="search flex-wrp">
+    <view class="search-left flex-item">
+      <image src="../../images/search.png"></image>
+      <input placeholder="搜索商品、服务" placeholder-class="search-placeholder" />
+
+    </view>
+    <view class="search-right flex-item" bindtap="upper">
+      <image src="../../images/lighting.png"></image>
+    </view>
+  </view>
+
+  <view class="categroy flex-wrp">
+     <view class="item_type flex-item">
+      <picker bindchange="typeChange" value="{{type_index}}" range="{{types}}">
+        <view class="picker">
+          {{types[type_index]}}
+         <icon class="iconfont icon-xiajiantou1" size='13'></icon>
+        </view>
+       
+      </picker>
+      
+     </view>
+     <view class="item_sort flex-item">
+      <picker bindchange="sortChange" value="{{sorts_index}}" range="{{sorts}}">
+        <view class="picker">
+         {{sorts[sorts_index]}}
+         <icon class="iconfont icon-xiajiantou1" size='13'></icon>
+        </view>
+      </picker>
+     </view>
+  </view>
+  
+
+  <view class="items ">
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+      <view class="item element">
+        <view class="pic">
+          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+        </view>
+        <view class="content ">
+            <view class="name">婴儿纸尿片</view>
+            <view class="price">￥1000</view>
+            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+        </view>
+      </view>
+  </view>
+</view>

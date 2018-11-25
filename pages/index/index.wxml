@@ -1,0 +1,404 @@
+<view class="app">
+  <!-- banner -->
+  <template name="banner">
+    <swiper indicator-dots="true" circular="true" autoplay="{{data.customFeature.autoplay}}" vertical="{{data.customFeature.vertical}}" interval="{{data.customFeature.interval*1000}}" duration="750" style="{{data.style}}">
+
+      <block wx:for="{{data.content}}">
+        <swiper-item data-event-params="{{item.eventParams}}" catchtap="{{item.eventHandler}}">
+          <image class="swiper-item" src="{{item.pic}}" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </template>
+  <view class="ele-container">
+    <template is="banner" data="{{data:banner}}"></template>
+  </view>
+  <!-- banner end-->
+
+  <!-- 导航 -->
+  <template name="zcPicture">
+    <block>
+      <view class="element picture" style="{{data.style}}" data-imgArr="{{data.content}}" catchtap="{          {data.eventHandler}}">
+        <image src="{{data.content}}"></image>
+      </view>
+    </block>
+  </template>
+  <!--  加载中 -->
+  <view class="ele-container">
+    <block>
+      <template is="zcPicture" data="{{data:navigation}}"></template>
+    </block>
+  </view>
+  <!-- 图片 -->
+  <template name="menus">
+    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[1]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[2]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[3]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[4]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[5]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[6]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[7]}}"></template>
+        </block>
+      </view>
+
+      <view class="ele-container">
+        <template is="zcText" data="{{data:data.content[8]}}"></template>
+      </view>
+
+
+      <view class="ele-container">
+        <template is="zcText" data="{{data:data.content[9]}}"></template>
+      </view>
+
+
+      <view class="ele-container">
+        <template is="zcText" data="{{data:data.content[10]}}"></template>
+      </view>
+      <view class="ele-container">
+
+        <template is="zcText" data="{{data:data.content[11]}}"></template>
+
+      </view>
+      <view class="ele-container">
+
+        <template is="zcText" data="{{data:data.content[12]}}"></template>
+
+      </view>
+      <view class="ele-container">
+
+        <template is="zcText" data="{{data:data.content[13]}}"></template>
+
+      </view>
+      <view class="ele-container">
+
+        <template is="zcText" data="{{data:data.content[14]}}"></template>
+
+      </view>
+      <view class="ele-container">
+
+        <template is="zcText" data="{{data:data.content[15]}}"></template>
+
+      </view>
+
+    </view>
+  </template>
+  <!-- 文字 menus 模板套用 -->
+  <template name="zcText">
+    <block>
+      <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+    </block>
+  </template>
+  <view class="ele-container">
+    <block>
+      <template is="menus" data="{{data:menus}}"></template>
+    </block>
+  </view>
+
+  <!-- 导航 end -->
+
+  <!-- 资讯 -->
+  <template name="news">
+    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+        </block>
+      </view>
+      <template name="zcText">
+        <block>
+          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+        </block>
+      </template>
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[1]}}"></template>
+        </block>
+      </view>
+
+
+    </view>
+  </template>
+
+  <view class="ele-container">
+    <block>
+      <template is="news" data="{{data:news}}"></template>
+    </block>
+  </view>
+  <!--  资讯 end-->
+
+  <!-- 活动 -->
+  <template name="zcFreeVessel5">
+    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[1]}}"></template>
+        </block>
+      </view>
+    </view>
+  </template>
+  <view class="ele-container">
+    <template is="zcFreeVessel5" data="{{data:activity}}"></template>
+  </view>
+  <!-- 活动 end-->
+
+
+
+
+  <!-- 推荐商品 TITLE -->
+    <template name="recommend_text">
+    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <template name="zcText">
+        <block>
+          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+        </block>
+      </template>
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[0]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[1]}}"></template>
+        </block>
+      </view>
+    </view>
+  </template>
+  <view class="ele-container">
+   
+    <block>
+      <template is="recommend_text" data="{{data:recommend_text}}"></template>
+    </block>
+  </view>
+<!-- 推荐商品 TITLE END-->
+
+<!-- 推荐商品 内容  先3图  后3字-->
+ <template name="recommend_content">
+    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[1]}}"></template>
+        </block>
+      </view>
+       <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[2]}}"></template>
+        </block>
+      </view>
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <template name="zcText">
+        <block>
+          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+        </block>
+      </template>
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[3]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[4]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[5]}}"></template>
+        </block>
+      </view>
+
+
+    </view>
+  </template>
+  <view class="ele-container">
+    <block>
+      <template is="recommend_content" data="{{data:recommend_content}}"></template>
+    </block>
+  </view>
+<!-- 推荐商品 内容 END -->
+
+  <!-- 人气商品 TITLE -->
+  <template name="hot_text">
+    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+      <template name="zcText">
+        <block>
+          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+        </block>
+      </template>
+
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[0]}}"></template>
+        </block>
+      </view>
+
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[1]}}"></template>
+        </block>
+      </view>
+
+    </view>
+  </template>
+  <view class="ele-container">
+    <template is="hot_text" data="{{data:hot_text}}"></template>
+  </view>
+  <!-- 人气商品 TITLE END -->
+
+  <!-- 人气商品 内容 -->
+  <!-- 1-图 2TITLE背景  3-TITLE -->
+  <template name="hot_content">
+    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+      <template name="zcText">
+        <block>
+          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+        </block>
+      </template>
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+        </block>
+      </view>
+       <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[1]}}"></template>
+        </block>
+      </view>
+       <import src="../../components/wxParse/wxParse.wxml" />
+       <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[2]}}"></template>
+        </block>
+      </view>
+
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[3]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[4]}}"></template>
+        </block>
+      </view>
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[5]}}"></template>
+        </block>
+      </view>
+      
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[6]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[7]}}"></template>
+        </block>
+      </view>
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[8]}}"></template>
+        </block>
+      </view>
+      
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[9]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[10]}}"></template>
+        </block>
+      </view>
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[11]}}"></template>
+        </block>
+      </view>
+
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[12]}}"></template>
+        </block>
+      </view>
+      <view class="ele-container">
+        <block>
+          <template is="zcPicture" data="{{data:data.content[13]}}"></template>
+        </block>
+      </view>
+      <import src="../../components/wxParse/wxParse.wxml" />
+      <template name="zcText">
+        <block>
+          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+        </block>
+      </template>
+      <view class="ele-container">
+        <block>
+          <template is="zcText" data="{{data:data.content[14]}}"></template>
+        </block>
+      </view>
+    </view>
+  </template>
+  <view class="ele-container">
+    <block>
+      <template is="hot_content" data="{{data:hot_content}}"></template>
+    </block>
+  </view>
+  <!-- 人气商品 内容 END -->
+
+<!-- 图片观赏 -->
+  <view class="ele-container">
+    <template is="banner" data="{{data:hot_image}}"></template>
+  </view>
+<!-- 图片观赏 END -->
+</view>

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/my/index",
+    "pages/cart/index",
+    "pages/classify/index",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "white",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "贵州欧缇蔓月子会所",
+    "navigationBarBackgroundColor": "#292929",
+    "backgroundColor": "#F2f2f2",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#666666",
+    "selectedColor": "#333333",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "iconPath": "images\/595373bf2a5e9.png",
+        "selectedIconPath": "images\/595373bf2a63d.png",
+        "text": "首页",
+        "pagePath": "pages\/index\/index"
+      },
+      {
+        "iconPath": "images\/595373bf44c59.png",
+        "selectedIconPath": "images\/595373bf44ca7.png",
+        "text": "分类",
+        "pagePath": "pages\/classify\/index"
+      },
+      {
+        "iconPath": "images\/footer-icon-03.png",
+        "selectedIconPath": "images\/footer-icon-03-active.png",
+        "text": "购物车",
+        "pagePath": "pages\/cart\/index"
+      },
+      {
+        "iconPath": "images\/595373bf6d602.png",
+        "selectedIconPath": "images\/595373bf6d65f.png",
+        "text": "我",
+        "pagePath": "pages\/my\/index"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
