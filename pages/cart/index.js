@@ -7,41 +7,57 @@ Page({
     'iscart': false, //控制购物车有没有数据
     'goodList': [
       {
-        'cover': 'http://img.weiye.me/zcimgdir/album/file_591d10484584b.png',
+        'cover': 'http://120.25.219.228:8000/images/classify/10.jpg',
         'isbn': '9787535482051',
-        'desc': '【光山馆】2斤大连烟台樱桃新鲜水果现摘现发产地直供孕妇水果儿童水果当季水果早大果红灯美早车厘子大樱桃 2斤 AAA级 果径28mm以上',
+        'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
         'price': 25.9,
         'count': 1,
         'checked': false
       },
       {
-        'cover': 'http://img.weiye.me/zcimgdir/album/file_591d10484584b.png',
+        'cover': 'http://120.25.219.228:8000/images/classify/9.jpg',
         'isbn': '9787540455958',
-        'desc': '【第二件立减20元】新鲜采摘 国产 美早 车厘子 大樱桃新鲜水果1kg 单果26-28mm',
+        'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
         'price': 20.5,
         'count': 1,
         'checked': false
       },
       {
-        'cover': 'http://img.weiye.me/zcimgdir/album/file_591d10484584b.png',
+        'cover': 'http://120.25.219.228:8000/images/classify/3.jpg',
         'isbn': '9787539982830',
-        'desc': '农家新语 新鲜烟台大樱桃2斤现摘当季水果车厘子美早 顺丰空运',
+        'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
         'price': 24.1,
         'count': 1,
         'checked': false
       },
       {
-        'cover': 'http://img.weiye.me/zcimgdir/album/file_591d10484584b.png',
+        'cover': 'http://120.25.219.228:8000/images/classify/4.jpg',
         'isbn': '9787550013247',
-        'desc': '【第二件5折】岂鲜大连美早大樱桃500g大果28-30mm 新鲜水果礼盒',
+        'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
         'price': 17.2,
         'count': 1,
         'checked': false
       },
       {
-        'cover': 'http://img.weiye.me/zcimgdir/album/file_591d10484584b.png',
+        'cover': 'http://120.25.219.228:8000/images/classify/5.jpg',
         'isbn': '9787208061644',
-        'desc': '优仙果 山东美早大樱桃 1000g装果径26-28mm 新鲜水果车厘子',
+        'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
+        'price': 17.7,
+        'count': 1,
+        'checked': false
+      },
+      {
+        'cover': 'http://120.25.219.228:8000/images/classify/6.jpg',
+        'isbn': '9787208061644',
+        'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
+        'price': 17.7,
+        'count': 1,
+        'checked': false
+      },
+      {
+        'cover': 'http://120.25.219.228:8000/images/classify/7.jpg',
+        'isbn': '9787208061644',
+        'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
         'price': 17.7,
         'count': 1,
         'checked': false

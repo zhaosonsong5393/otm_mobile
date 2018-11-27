@@ -1,9 +1,14 @@
 {
   "pages": [
+    "pages/goods/detail",
+    "pages/index/index",
+    "pages/news/list",
+    "pages/news/detail",
     "pages/login/index",
     "pages/my/index",
-    "pages/index/index",
     "pages/classify/index",
+    "pages/classify_list/index",
+    "pages/map/index",
     "pages/cart/index"
   ],
   "window": {
@@ -41,8 +46,14 @@
       {
         "iconPath": "images\/595373bf6d602.png",
         "selectedIconPath": "images\/595373bf6d65f.png",
+        "text": "导航到店",
+        "pagePath": "pages\/map\/index"
+      },
+      {
+        "iconPath": "images\/595373bf6d602.png",
+        "selectedIconPath": "images\/595373bf6d65f.png",
         "text": "我",
-        "pagePath": "pages\/my\/index"
+        "pagePath": "pages/my/index"
       }
     ]
   },

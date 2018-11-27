@@ -8,7 +8,7 @@
 }
  
 .header image {
-    width: 200rpx;
+    width: 350rpx;
     height: 200rpx;
 }
  

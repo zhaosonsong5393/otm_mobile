@@ -36,114 +36,105 @@
   <view class="items ">
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/1.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/2.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/3.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/4.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/5.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/6.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/7.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/8.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/9.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
       <view class="item element">
         <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
+          <image src='http://120.25.219.228:8000/images/classify/10.jpg'></image>
         </view>
         <view class="content ">
-            <view class="name">婴儿纸尿片</view>
+            <view class="name">月子营养餐</view>
             <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
+            <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
-        <view class="pic">
-          <image src='http://img.weiye.me/zcimgdir/album/file_591d10484584b.png'></image>
-        </view>
-        <view class="content ">
-            <view class="name">婴儿纸尿片</view>
-            <view class="price">￥1000</view>
-            <view class="remark">第三节课的好的第三节课的好的第三节课的好的第三的第三节课的好的</view>
-        </view>
-      </view>
+      
   </view>
 </view>

@@ -34,6 +34,23 @@ var pageData = {
 
     
   },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+    console.log("下拉刷新")
+   
+    //当逻辑执行完后关闭刷新    
+    wx.stopPullDownRefresh()
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+    console.log("刷新")
+  },
   /**
   * 用户点击右上角分享
   */
@@ -44,9 +61,25 @@ var pageData = {
     let id = event.currentTarget.dataset.id
     console.log("收到参数:" + JSON.stringify(event.currentTarget.dataset.id))
     console.log(wx);
+    if(id==7){
+      wx.navigateTo({
+        url: '../../pages/news/list?id=' + id,
+      })
+    }else{
+      wx.navigateTo({
+        url: '../../pages/classify_list/index?id=' + id,
+      })
+    }
+   
+  },
+  new_detail_click: function (event) {
+    let id = event.currentTarget.dataset.id
+    console.log("收到新闻列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    console.log(wx);
     wx.navigateTo({
-      url: '../../pages/classify/index?id=' + id,
+      url: '../../pages/news/detail?id=' + id,
     })
-  }
+
+  },
 };
 Page(pageData);

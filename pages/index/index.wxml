@@ -116,7 +116,7 @@
   <!-- 文字 menus 模板套用 -->
   <template name="zcText">
     <block>
-      <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+      <text class="element text" style="{{data.style}}" data-event-params="{{data.id}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
     </block>
   </template>
   <view class="ele-container">
@@ -129,20 +129,20 @@
 
   <!-- 资讯 -->
   <template name="news">
-    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
-      <view class="ele-container">
+    <view class="element free-vessel" style="{{data.style}}" >
+      <view class="ele-container"  data-id="7"  catchtap='classify_click'>
         <block>
-          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+          <template is="zcPicture" data="{{data:data.content[0]}}" ></template>
         </block>
       </view>
-      <template name="zcText">
+      <template name="newText">
         <block>
-          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+          <text class="element text" style="{{data.style}}"  data-id="{{data.id}}"  catchtap='new_detail_click' >{{data.content}}</text>
         </block>
       </template>
-      <view class="ele-container">
+      <view class="ele-container" >
         <block>
-          <template is="zcText" data="{{data:data.content[1]}}"></template>
+          <template is="newText" data="{{data:data.content[1]}}"></template>
         </block>
       </view>
 

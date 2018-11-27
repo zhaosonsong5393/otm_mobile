@@ -1,0 +1,5 @@
+<view class="container">
+ <map id="map" longitude="106.7258210000" latitude="26.6121040000" markers="{{markers}}" scale="18"  class="container" bindtap="click">
+</map>
+</view>
+
