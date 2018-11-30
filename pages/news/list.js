@@ -18,11 +18,19 @@ var pageData = {
   detail_click: function (event){
     let id = event.currentTarget.dataset.id
     console.log("收到新闻列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
-    console.log(wx);
       wx.navigateTo({
         url: '../../pages/news/detail?id=' + id,
       })
-  }
+  },
+  /**
+  * 页面相关事件处理函数--监听用户下拉动作
+  */
+  onPullDownRefresh: function () {
+    console.log("下拉刷新")
+
+    //当逻辑执行完后关闭刷新    
+    wx.stopPullDownRefresh()
+  },
 };
 Page(pageData);
 

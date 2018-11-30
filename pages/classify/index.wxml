@@ -34,7 +34,7 @@
   
 
   <view class="items ">
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/1.jpg'></image>
         </view>
@@ -45,7 +45,7 @@
         </view>
       </view>
       
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/2.jpg'></image>
         </view>
@@ -55,7 +55,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/3.jpg'></image>
         </view>
@@ -65,7 +65,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/4.jpg'></image>
         </view>
@@ -75,7 +75,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/5.jpg'></image>
         </view>
@@ -85,7 +85,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/6.jpg'></image>
         </view>
@@ -95,7 +95,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/7.jpg'></image>
         </view>
@@ -105,7 +105,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/8.jpg'></image>
         </view>
@@ -115,7 +115,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/9.jpg'></image>
         </view>
@@ -125,7 +125,7 @@
             <view class="remark">月子期间的饮食和调理，分为普通饮食和中医食补类。月子餐食品种类要丰富，变化花样，多做高营养的汤水</view>
         </view>
       </view>
-      <view class="item element">
+      <view class="item element" bindtap='onProductDetail' data-id="1">
         <view class="pic">
           <image src='http://120.25.219.228:8000/images/classify/10.jpg'></image>
         </view>

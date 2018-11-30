@@ -81,5 +81,13 @@ var pageData = {
     })
 
   },
+  onProductDetail: function (event) {
+    let id = event.currentTarget.dataset.id
+    console.log("收到商品列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    console.log(wx);
+    wx.navigateTo({
+      url: '../../pages/goods/detail?id=' + id,
+    })
+  }
 };
 Page(pageData);

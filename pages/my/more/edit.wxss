@@ -1,0 +1,96 @@
+/* pages/myinfo/myinfo.wxss */
+.nav{
+    background-color: #fff;
+    padding-top: 30rpx;
+    border-radius: 10rpx;
+}
+.top{
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+}
+.nickname{
+  margin-bottom: 10rpx;
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.recipient{
+  border-top: 25rpx solid #f0ecec;
+  font-size: 30rpx;
+  padding-bottom: 15rpx;
+  padding-right: 25rpx;
+}
+
+.recipient .title{
+  font-weight: bold;
+  padding-top: 20rpx;
+  padding-left: 25rpx;
+  border-bottom: 1px solid #f0ecec;
+  height: 65rpx;
+  font-size: 34rpx;
+}
+
+.item{
+  height: 70rpx;
+  background-color: #fff;
+  margin: 25rpx;
+  display: flex;
+  
+}
+.left{
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+  width: 320rpx;
+}
+.right{
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+ 
+  margin-right: 20rpx;
+}
+
+.emity{
+  margin-left: 10rpx;
+  color: red;
+}
+
+
+.clear{
+  height: 115rpx;
+  background: #ffffff
+}
+
+
+
+.detail-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  background-color: #FFC63C;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 130rpx;
+  text-align: center;
+}
+
+
+input{
+  border-bottom:1px solid #f0ecec;
+}
+
+.detail-nav .btn-zf {
+  width: 100%;
+  font-size: 36rpx;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+

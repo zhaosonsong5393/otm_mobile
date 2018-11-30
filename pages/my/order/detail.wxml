@@ -1,0 +1,82 @@
+<view>
+    <view class="recipient">
+        <view class="title">收货人信息</view>
+        <view class="content">
+          <view><label  class="label">收　货人： </label><text class="name text">赵立松 15123378038</text></view>
+          <view><label  class="label">备　　用： </label><text class="real_name text">赵立松 15123378038</text></view>
+          <view><label  class="label">地　　址： </label><text class="number text">重庆市南岸区南坪重庆市南岸区南坪重庆市南岸区南坪重庆市南岸区南坪重庆市南岸区南坪重庆市南岸区南坪</text></view>
+        </view>
+    </view>
+
+     <view class="recipient">
+        <view class="title">订单信息</view>
+        <view class="content">
+          <view><label class="label">订单编号： </label><text class="number text">M1000000012</text></view>
+          <view><label  class="label">订单状态： </label><text  class="status text">已完成</text></view>
+          <view><label  class="label">下单时间： </label><text  class="start_time text">2018-11-12 12:12:12</text></view>
+          <view><label  class="label">完成时间： </label><text  class="end_time text">2018-11-12 12:12:12</text></view>
+          <view><label  class="label">备　　注： </label><text  class="end_time text">我想要带你去浪漫的土耳其，和你一起，去东京和巴黎们还有那我想要带你去浪漫的土耳其，和你一起，去东京和巴黎们还有那</text></view>
+        </view>
+    </view>
+
+  
+
+    <view class="product_info">
+     <view class="title">商品信息</view>
+      <view class="content">
+        <view class='items'>
+          <view class="img"><image class="tx" src="http://120.25.219.228:8000/images/classify/10.jpg"></image></view>
+          <view class="info">
+            <view class="name"><label>兔宝宝E0级多层板 </label></view>
+            <view class="remark"><text>简介 备注简介 备注简介 备注简介 备注简介 备注简介 备注</text></view>
+            <view class="other"><label class="money">￥11111</label><label class="number">X4</label></view>
+          </view>
+        </view>
+        <view class='items'>
+          <view class="img"><image class="tx" src="http://120.25.219.228:8000/images/classify/10.jpg"></image></view>
+          <view class="info">
+            <view class="name"><label>兔宝宝E0级多层板 </label></view>
+            <view class="remark"><text>简介 备注简介 备注简介 备注简介 备注简介 备注简介 备注</text></view>
+            <view class="other"><label class="money">￥11111</label><label class="number">X4</label></view>
+          </view>
+        </view>
+        <view class='items'>
+          <view class="img"><image class="tx" src="http://120.25.219.228:8000/images/classify/10.jpg"></image></view>
+          <view class="info">
+            <view class="name"><label>兔宝宝E0级多层板 </label></view>
+            <view class="remark"><text>简介 备注简介 备注简介 备注简介 备注简介 备注简介 备注</text></view>
+            <view class="other"><label class="money">￥11111</label><label class="number">X4</label></view>
+          </view>
+        </view>
+        <view class='items'>
+          <view class="img"><image class="tx" src="http://120.25.219.228:8000/images/classify/10.jpg"></image></view>
+          <view class="info">
+            <view class="name"><label>兔宝宝E0级多层板 </label></view>
+            <view class="remark"><text>简介 备注简介 备注简介 备注简介 备注简介 备注简介 备注</text></view>
+            <view class="other"><label class="money">￥11111</label><label class="number">X4</label></view>
+          </view>
+        </view>
+
+      </view>
+      
+    </view>
+
+    <view class="recipient">
+      <view class="more">
+        <view class="activite"><label>是否为活动</label><text class="is_activite">是</text></view>
+        <view class="init_price"><label>商品金额</label><text>￥10000</text></view>
+        <view class="preferential"><label>优惠金额</label><text>-￥1000</text></view>
+        <view class="total_price"><label>订单总价</label><text class="pay_amount">￥9000</text></view>
+      </view>
+     
+    </view>
+    <view class="clear">
+        　
+      </view>
+
+    <view class="detail-nav">
+        <view class="btn-zf">
+            立即支付
+        </view>
+    </view>
+</view>

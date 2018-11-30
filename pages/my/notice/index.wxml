@@ -1,0 +1,75 @@
+<!--messageAccount.wxml-->
+<view class="records">
+  <view class="record">
+    <view class="on">
+      <image src="/images/notice.png"/><text class="action">订单即将关闭</text>
+    </view>
+
+    <view class="shortintro">
+      抱歉，您的订单（020024646164)，因为当前库存不足，交易失败，请您稍后再试。刚学您对非越的厚爱和支持！
+    </view>
+    <view class="under">
+      <text class="time">2017-04-15 14:20</text>
+    </view>
+  </view>
+   <view class="record">
+    <view class="on">
+      <image src="/images/notice.png"/><text class="action">订单即将关闭</text>
+    </view>
+
+    <view class="shortintro">
+      抱歉，您的订单（020024646164)，因为当前库存不足，交易失败，请您稍后再试。刚学您对非越的厚爱和支持！
+    </view>
+    <view class="under">
+      <text class="time">2017-04-15 14:20</text>
+    </view>
+  </view>
+   <view class="record">
+    <view class="on">
+      <image src="/images/notice.png"/><text class="action">订单即将关闭</text>
+    </view>
+
+    <view class="shortintro">
+      抱歉，您的订单（020024646164)，因为当前库存不足，交易失败，请您稍后再试。刚学您对非越的厚爱和支持！
+    </view>
+    <view class="under">
+      <text class="time">2017-04-15 14:20</text>
+    </view>
+  </view>
+   <view class="record">
+    <view class="on">
+      <image src="/images/notice.png"/><text class="action">订单即将关闭</text>
+    </view>
+
+    <view class="shortintro">
+      抱歉，您的订单（020024646164)，因为当前库存不足，交易失败，请您稍后再试。刚学您对非越的厚爱和支持！
+    </view>
+    <view class="under">
+      <text class="time">2017-04-15 14:20</text>
+    </view>
+  </view>
+   <view class="record">
+    <view class="on">
+      <image src="/images/notice.png"/><text class="action">订单即将关闭</text>
+    </view>
+
+    <view class="shortintro">
+      抱歉，您的订单（020024646164)，因为当前库存不足，交易失败，请您稍后再试。刚学您对非越的厚爱和支持！
+    </view>
+    <view class="under">
+      <text class="time">2017-04-15 14:20</text>
+    </view>
+  </view>
+   <view class="record">
+    <view class="on">
+      <image src="/images/notice.png"/><text class="action">订单即将关闭</text>
+    </view>
+
+    <view class="shortintro">
+      抱歉，您的订单（020024646164)，因为当前库存不足，交易失败，请您稍后再试。刚学您对非越的厚爱和支持！
+    </view>
+    <view class="under">
+      <text class="time">2017-04-15 14:20</text>
+    </view>
+  </view>
+</view>

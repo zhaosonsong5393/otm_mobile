@@ -7,7 +7,7 @@
         <!--第一个盒子  -->
         
         <!-- 第二个盒子 -->
-        <view class='good_content'>
+        <view class='good_content' catchtap='on_order_detail' data-id="{{good.id}}">
           <view class='good_checkbox'>
             <label class="checkbox">
               <checkbox value="{{good.isbn}}" checked="{{good.checked}}" hidden='hidden' />
@@ -53,9 +53,7 @@
         <text>¥{{totalPrice}}</text>
       </view>
     </view>
-    <navigator url='../checkout/index'>
-      <view class='btn {{totalCount > 0 ? "btn-primary" : "btn-default"}}'>去结算</view>
-    </navigator>
+      <view class='btn {{totalCount > 0 ? "btn-primary" : "btn-default"}}' catchtap="on_click_order">去结算</view>
   </view>
 
 </view>

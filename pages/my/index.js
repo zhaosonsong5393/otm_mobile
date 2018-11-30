@@ -55,10 +55,13 @@ Page({
   },
 
   /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
+  * 页面相关事件处理函数--监听用户下拉动作
+  */
   onPullDownRefresh: function () {
+    console.log("下拉刷新")
 
+    //当逻辑执行完后关闭刷新    
+    wx.stopPullDownRefresh()
   },
 
   /**
@@ -73,5 +76,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  list_click: function(event){
+    let router = event.currentTarget.dataset.router
+    console.log("收到我的列表参数:" + router)
+    wx.navigateTo({
+      url: '/pages/my/' + router+'/index'　　// 页面 A
+    })
   }
 })

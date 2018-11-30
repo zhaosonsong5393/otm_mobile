@@ -182,11 +182,11 @@
 
   <!-- 推荐商品 TITLE -->
   <template name="recommend_text">
-    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+    <view class="element free-vessel" style="{{data.style}}">
       <import src="../../components/wxParse/wxParse.wxml" />
       <template name="zcText">
         <block>
-          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+          <text class="element text" style="{{data.style}}" >{{data.content}}</text>
         </block>
       </template>
       <view class="ele-container">
@@ -210,11 +210,12 @@
   <!-- 推荐商品 TITLE END-->
 
   <!-- 推荐商品 内容  先3图  后3字-->
+   
   <template name="recommend_content">
-    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+    <view class="element free-vessel" style="{{data.style}}" >
       <view class="ele-container">
         <block>
-          <template is="zcPicture" data="{{data:data.content[0]}}"></template>
+          <template is="zcPicture" data="{{data:data.content[0]}}"  ></template>
         </block>
       </view>
       <view class="ele-container">
@@ -230,7 +231,7 @@
       <import src="../../components/wxParse/wxParse.wxml" />
       <template name="zcText">
         <block>
-          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+          <text class="element text" style="{{data.style}}" bindtap='onProductDetail' data-id="1">{{data.content}}</text>
         </block>
       </template>
       <view class="ele-container">
@@ -261,10 +262,10 @@
 
   <!-- 人气商品 TITLE -->
   <template name="hot_text">
-    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+    <view class="element free-vessel" style="{{data.style}}" >
       <template name="zcText">
         <block>
-          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+          <text class="element text" style="{{data.style}}" >{{data.content}}</text>
         </block>
       </template>
 
@@ -290,10 +291,10 @@
   <!-- 人气商品 内容 -->
   <!-- 1-图 2TITLE背景  3-TITLE -->
   <template name="hot_content">
-    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+    <view class="element free-vessel" style="{{data.style}}" >
       <template name="zcText">
         <block>
-          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+          <text class="element text" style="{{data.style}}" >{{data.content}}</text>
         </block>
       </template>
       <import src="../../components/wxParse/wxParse.wxml" />
@@ -378,7 +379,7 @@
       <import src="../../components/wxParse/wxParse.wxml" />
       <template name="zcText">
         <block>
-          <text class="element text" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">{{data.content}}</text>
+          <text class="element text" style="{{data.style}}">{{data.content}}</text>
         </block>
       </template>
       <view class="ele-container">

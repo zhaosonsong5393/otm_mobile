@@ -7,6 +7,7 @@ Page({
     'iscart': false, //控制购物车有没有数据
     'goodList': [
       {
+        'id':1,
         'cover': 'http://120.25.219.228:8000/images/classify/10.jpg',
         'isbn': '9787535482051',
         'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
@@ -15,6 +16,7 @@ Page({
         'checked': false
       },
       {
+        'id': 2,
         'cover': 'http://120.25.219.228:8000/images/classify/9.jpg',
         'isbn': '9787540455958',
         'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
@@ -23,6 +25,7 @@ Page({
         'checked': false
       },
       {
+        'id': 3,
         'cover': 'http://120.25.219.228:8000/images/classify/3.jpg',
         'isbn': '9787539982830',
         'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
@@ -31,6 +34,7 @@ Page({
         'checked': false
       },
       {
+        'id': 4,
         'cover': 'http://120.25.219.228:8000/images/classify/4.jpg',
         'isbn': '9787550013247',
         'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
@@ -39,6 +43,7 @@ Page({
         'checked': false
       },
       {
+        'id': 5,
         'cover': 'http://120.25.219.228:8000/images/classify/5.jpg',
         'isbn': '9787208061644',
         'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
@@ -47,6 +52,7 @@ Page({
         'checked': false
       },
       {
+        'id': 6,
         'cover': 'http://120.25.219.228:8000/images/classify/6.jpg',
         'isbn': '9787208061644',
         'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
@@ -55,6 +61,7 @@ Page({
         'checked': false
       },
       {
+        'id': 7,
         'cover': 'http://120.25.219.228:8000/images/classify/7.jpg',
         'isbn': '9787208061644',
         'desc': '月子餐食品种类要丰富，变化花样，多做高营养的汤水',
@@ -191,6 +198,13 @@ Page({
     });
     this.calculateTotal();
   },
+  on_click_order: function(event){
+   
+    console.log("购物车结算");
+    wx.navigateTo({
+      url: '../../pages/my/order/detail',
+    })
+  },
 
   /**
  * 生命周期函数--监听页面加载
@@ -228,10 +242,13 @@ Page({
   },
 
   /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
+  * 页面相关事件处理函数--监听用户下拉动作
+  */
   onPullDownRefresh: function () {
+    console.log("下拉刷新")
 
+    //当逻辑执行完后关闭刷新    
+    wx.stopPullDownRefresh()
   },
 
   /**
@@ -247,6 +264,5 @@ Page({
   onShareAppMessage: function () {
 
   },
-
 
 })

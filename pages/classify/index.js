@@ -25,6 +25,23 @@ var pageData = {
   onShareAppMessage: function () {
 
   },
+  /**
+  * 页面相关事件处理函数--监听用户下拉动作
+  */
+  onPullDownRefresh: function () {
+    console.log("下拉刷新")
+
+    //当逻辑执行完后关闭刷新    
+    wx.stopPullDownRefresh()
+  },
+  onProductDetail: function (event) {
+    let id = event.currentTarget.dataset.id
+    console.log("收到商品列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    console.log(wx);
+    wx.navigateTo({
+      url: '../../pages/goods/detail?id=' + id,
+    })
+  }
 };
 Page(pageData);
 

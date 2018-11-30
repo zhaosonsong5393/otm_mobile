@@ -1,4 +1,4 @@
-  page {
+page {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -64,7 +64,7 @@ swiper-item image {
   background-color: #f44336; /* 红色 */
 }
 .image_detail {
-  width: 100%;
+  width: 95%;
 }
 button {
   color: white;
@@ -98,8 +98,99 @@ text {
   font-size: 30rpx;
   margin: 10rpx;
 }
+.text-remark-title{
+  font-weight: bold;
+}
+
+.text-detail-title{
+  font-weight: bold;
+}
+
 .text-remark {
   display: block;
   font-size: 25rpx;
   margin: 10rpx;
+}
+
+
+.tabs-box{
+  display: flex;
+}
+.tabs-item.selected {
+    color:#000000;
+    border-bottom:2px solid #000000;
+}
+.tabs-item {
+    width:50%;
+    color:#cccccc;
+    font-size:28rpx;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    border-bottom:1rpx solid #D0D0D7;
+    padding-bottom:10rpx;
+}
+.product-detail-box{
+  background: #F0F4F3
+
+}
+
+.product-info{
+  width:100%;
+  padding: 10px;
+  background: #ffffff;
+
+}
+.comments{
+
+  width: 100%;
+}
+.comments .comment{
+  padding: 10px;
+  background: #ffffff;
+  margin-top: 20rpx;
+}
+
+.comments .comment .title{
+  height: 75rpx;
+  display: flex;
+}
+.comments .comment .time{
+  margin-top: 10rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  color: #aaa9a9;
+}
+.comments .comment .title .avat{
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 80rpx;
+}
+.comments .comment .title .thestar{
+  height: 50rpx;
+  display: flex;
+  padding: auto;
+}
+.comments .comment .title .star{
+  height: 30rpx;
+  width: 30rpx;
+  display: flex;
+  line-height: 30rpx;
+  padding-left:7rpx;
+  padding-top: 15rpx;
+}
+.comments .comment .title .name{
+  margin-left: 20rpx;
+  color: #aaa9a9;
+  font-size: 14px;
+  line-height: 40rpx;
+}
+
+.comments .comment .content{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.clear{
+  height: 100rpx;
+  background: #ffffff
 }

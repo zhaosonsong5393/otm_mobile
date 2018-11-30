@@ -1,27 +1,31 @@
 Page({
   data: {
-    isLike: true,
+    isLike: false,
     // banner
     imgUrls: [
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057921620_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057922659_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057923813_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057924965_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057925958_middle.jpg"
+      "http://120.25.219.228:8000/images/classify/10.jpg",
+      "http://120.25.219.228:8000/images/classify/9.jpg",
+      "http://120.25.219.228:8000/images/classify/8.jpg",
+      "http://120.25.219.228:8000/images/classify/7.jpg",
+      "http://120.25.219.228:8000/images/classify/6.jpg"
     ],
     indicatorDots: true, //是否显示面板指示点
     autoplay: true, //是否自动切换
     interval: 3000, //自动切换时间间隔,3s
     duration: 1000, //  滑动动画时长1s
-
+    thestar: 3,
     // 商品详情介绍
     detailImg: [
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057921620_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057922659_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057923813_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057924965_middle.jpg",
-      "http://mz.djmall.xmisp.cn/files/product/20161201/148057925958_middle.jpg"
+      "http://120.25.219.228:8000/images/classify/5.jpg",
+      "http://120.25.219.228:8000/images/classify/4.jpg",
+      "http://120.25.219.228:8000/images/classify/3.jpg",
+      "http://120.25.219.228:8000/images/classify/2.jpg",
+      "http://120.25.219.228:8000/images/classify/1.jpg"
     ],
+
+    
+    currentTabsIndex:0,
+    productCount:1,
   },
   //预览图片
   previewImage: function (e) {
@@ -47,10 +51,25 @@ Page({
   },
   // 立即购买
   immeBuy() {
-    wx.showToast({
-      title: '购买成功',
-      icon: 'success',
-      duration: 2000
-    });
+    console.log("立即购买");
+    wx.navigateTo({
+      url: '../../pages/my/order/detail',
+    })
+  },
+  onTabsItemTap:function(event){
+    var index = event.currentTarget.dataset.index
+    this.setData({
+      currentTabsIndex:index
+
+    })
+  },
+  /**
+  * 页面相关事件处理函数--监听用户下拉动作
+  */
+  onPullDownRefresh: function () {
+    console.log("下拉刷新")
+
+    //当逻辑执行完后关闭刷新    
+    wx.stopPullDownRefresh()
   },
 })

@@ -1,0 +1,44 @@
+<view class='detail-bottom-box'>
+  <view class='tabs-box'>
+    <block wx:for="{{['全部','待付款','待处理','已完成']}}" wx:key="id">
+      <view class="tabs-item {{currentTabsIndex == index?'selected':''}}" bindtap='onTabsItemTap' data-index='{{index}}'>
+        {{item}}
+      </view>
+    </block>
+  </view>
+  <template name="details">
+    <view class="details" >
+     <block wx:for="{{data}}" wx:for-index="idx" wx:for-item="item">
+        <view class="detail" catchtap='on_click_order' data-id="{{item.id}}">
+            <image class="tx" src="{{item.img}}"></image>
+            <view class="info">
+                <view class="name">{{item.name}}</view>
+                <view class="number">数量： <text >{{item.number}}</text></view>
+                <view class="price">金额：￥<text >{{item.price}}</text></view>
+            </view>
+            <view class="status">
+              <view wx:if="{{item.status==1}}">待付款</view>
+              <view wx:elif="{{item.status==2}}">待处理</view>
+              <view wx:elif="{{item.status==3}}">已完成</view>
+             
+            </view> 
+        </view>
+      </block>
+    </view>
+  </template>
+  <view class='product-detail-box'>
+    <view class="product-info" hidden='{{currentTabsIndex !=0 }}'>
+       <template is="details" data="{{data:allList}}"></template>
+    </view>
+    <view class="product-info" hidden='{{currentTabsIndex !=1 }}'>
+       <template is="details" data="{{data:status_1_List}}"></template>
+    </view>
+    <view class="product-info" hidden='{{currentTabsIndex !=2 }}'>
+       <template is="details"  data="{{data:status_2_List}}"></template>
+    </view>
+    <view class="product-info" hidden='{{currentTabsIndex !=3 }}'>
+       <template is="details" data="{{data:status_3_List}}"></template>
+    </view>
+   
+  </view>
+</view>

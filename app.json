@@ -1,14 +1,20 @@
 {
   "pages": [
-    "pages/goods/detail",
+    "pages/activity/index",
+    "pages/login/index",
     "pages/index/index",
     "pages/news/list",
     "pages/news/detail",
-    "pages/login/index",
     "pages/my/index",
+    "pages/my/notice/index",
+    "pages/my/order/detail",
+    "pages/my/order/index",
+    "pages/my/more/edit",
+    "pages/my/more/index",
     "pages/classify/index",
     "pages/classify_list/index",
     "pages/map/index",
+    "pages/goods/detail",
     "pages/cart/index"
   ],
   "window": {
@@ -26,32 +32,32 @@
     "backgroundColor": "#FFFFFF",
     "list": [
       {
-        "iconPath": "images\/595373bf2a5e9.png",
-        "selectedIconPath": "images\/595373bf2a63d.png",
+        "iconPath": "images\/tarBar_1.png",
+        "selectedIconPath": "images\/tarBar_1_1.png",
         "text": "首页",
         "pagePath": "pages\/index\/index"
       },
       {
-        "iconPath": "images\/595373bf44c59.png",
-        "selectedIconPath": "images\/595373bf44ca7.png",
+        "iconPath": "images\/tarBar_2.png",
+        "selectedIconPath": "images\/tarBar_2_2.png",
         "text": "分类",
         "pagePath": "pages\/classify\/index"
       },
       {
-        "iconPath": "images\/footer-icon-03.png",
-        "selectedIconPath": "images\/footer-icon-03-active.png",
+        "iconPath": "images\/tarBar_3.png",
+        "selectedIconPath": "images\/tarBar_3_3.png",
         "text": "购物车",
         "pagePath": "pages\/cart\/index"
       },
       {
-        "iconPath": "images\/595373bf6d602.png",
-        "selectedIconPath": "images\/595373bf6d65f.png",
+        "iconPath": "images\/tarBar_4.png",
+        "selectedIconPath": "images\/tarBar_4_4.png",
         "text": "导航到店",
         "pagePath": "pages\/map\/index"
       },
       {
-        "iconPath": "images\/595373bf6d602.png",
-        "selectedIconPath": "images\/595373bf6d65f.png",
+        "iconPath": "images\/tarBar_5.png",
+        "selectedIconPath": "images\/tarBar_5_5.png",
         "text": "我",
         "pagePath": "pages/my/index"
       }
