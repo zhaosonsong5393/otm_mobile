@@ -1,0 +1,81 @@
+.header{
+  padding: 32rpx;
+  letter-spacing:3rpx;
+  border-bottom: 1px solid #f0ecec;
+}
+
+.header .title{
+  
+  font-weight: bold;
+}
+
+.header .price{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+
+
+.header .price_content{
+  color:red;
+}
+
+.header .date{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+
+.header .date .start{
+  color:#aaaaaa
+}
+.header .date .end{
+  color:#aaaaaa
+}
+
+.body{
+  padding: 30rpx;
+  font-size: 28rpx;
+  letter-spacing:3rpx;
+}
+
+.body .remark{
+  color: #aaaaaa;
+  letter-spacing:3rpx;
+  margin-bottom: 15rpx;
+}
+
+.body .content{
+ margin-top: 50rpx;
+ text-align: center;
+}
+
+
+
+.clear{
+  height: 115rpx;
+  background: #ffffff
+}
+
+.detail-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 130rpx;
+  text-align: center;
+}
+
+.detail-nav .btn-zf {
+  width: 100%;
+  font-size: 36rpx;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+

@@ -59,7 +59,7 @@ page{background-color:rgb(243, 243, 243);margin-left:auto;}
     font-size: 14px;
 }
 .app .items{
-  margin-top: 10rpx;
+  margin-top: 15rpx;
   background: #ffffff;
   text-align: center;
   min-height: 300px;
@@ -68,7 +68,7 @@ page{background-color:rgb(243, 243, 243);margin-left:auto;}
 
 .app .items .item{
   width:100%;
-  height:105px;
+  height:125px;
   background-color:rgb(255, 255, 255);
   margin-bottom:auto;
   margin-right:auto;
@@ -76,13 +76,14 @@ page{background-color:rgb(243, 243, 243);margin-left:auto;}
   opacity:1;
   margin-left:auto;
   padding: 8px;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 10px solid rgb(243, 243, 243);
   display: flex;
 }
 
 .app .items .item .pic{
-  height: 90px;
-  width: 110px;
+  height:100px;
+  width:120px;
+
 }
 .app .items .item .pic image{
   width:100%;
@@ -95,6 +96,7 @@ page{background-color:rgb(243, 243, 243);margin-left:auto;}
   margin-left: 10px;
   height: 90px;
   width: 70%;
+  letter-spacing:2rpx;
 }
 .app .items .item .name{
   width: 60%;

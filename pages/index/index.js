@@ -61,9 +61,13 @@ var pageData = {
     let id = event.currentTarget.dataset.id
     console.log("收到参数:" + JSON.stringify(event.currentTarget.dataset.id))
     console.log(wx);
-    if(id==7){
+    if (id == 7) {
       wx.navigateTo({
         url: '../../pages/news/list?id=' + id,
+      })
+    } else if (id == 4) {
+      wx.navigateTo({
+        url: '../../pages/activity/index?id=' + id,
       })
     }else{
       wx.navigateTo({
@@ -87,6 +91,13 @@ var pageData = {
     console.log(wx);
     wx.navigateTo({
       url: '../../pages/goods/detail?id=' + id,
+    })
+  },
+  on_activety_detail: function (event) {
+    let id = event.currentTarget.dataset.id
+    console.log("收到活动列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    wx.navigateTo({
+      url: '../../pages/activity/detail?id=' + id,
     })
   }
 };

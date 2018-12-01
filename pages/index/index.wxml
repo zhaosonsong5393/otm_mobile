@@ -159,7 +159,7 @@
 
   <!-- 活动 -->
   <template name="zcFreeVessel5">
-    <view class="element free-vessel" style="{{data.style}}" data-event-params="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
+    <view class="element free-vessel" style="{{data.style}}" data-id="{{data.eventParams}}" catchtap="{{data.eventHandler}}">
       <view class="ele-container">
         <block>
           <template is="zcPicture" data="{{data:data.content[0]}}"></template>

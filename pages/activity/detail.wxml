@@ -1,0 +1,27 @@
+<view>
+  <view class="header">
+    <view class="title">孕妈气息攻略|网红蛋糕手机</view>
+    <view class="price">活动价：￥<text class="price_content">100</text></view>
+    <view class="date">活动时间：<text  class="start">2018-12-01</text>　至　<text class="end">2018-12-05 </text></view>
+  </view>
+  <view class="body">
+      <view class="remark">个活动，都是由大大小小的要素组成，没有这些要素，就不能称之为一个活动；量变积累，才能跃变，把每项活动要素，确保这些要素一一做好，才能让活动成功。</view>
+
+      <view class="content">
+           <image class="image_detail" src="http://120.25.219.228:8000/images/index/hot_1.jpg" />
+           <image class="image_detail" src="http://120.25.219.228:8000/images/index/hot_2.png" />
+           <image class="image_detail" src="http://120.25.219.228:8000/images/index/hot_1.jpg" />
+      </view>
+  </view>
+  <view class="clear">
+    　
+  </view>
+ <view class="detail-nav">
+      <!-- <view class="btn-zf" catchtap='on_edit'>
+           立即购买
+      </view> -->
+       <view class="btn-zf" catchtap='on_edit'>
+           立即预约
+      </view>
+  </view>
+</view>

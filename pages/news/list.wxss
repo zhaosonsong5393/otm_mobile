@@ -1,62 +1,45 @@
+.content {
+}
 .post-container{
-display: flex;
-flex-direction: column;
-margin-top: 20rpx;
-margin-bottom: 40rpx;
-background-color: #fff;
-border-bottom: 1px solid #ededed;
-border-top: 1px solid #ededed;
-padding-bottom: 5px;
+  
+  height: 160rpx;
+  padding: 30rpx;
+  letter-spacing:3rpx;
+  display: flex;
+  border-bottom: 25rpx solid #D0D0D7
 }
-.post-author-date{
-margin: 20rpx;
+
+.post-container .left{
+  width: 60%;
 }
-.post-author{
-width: 60rpx;
-height: 60rpx;
-vertical-align: middle;
+.post-container .left .title{
+  height: 140rpx;
+  font-weight: bold;
 }
-.post-date{
-margin-left: 20rpx;
-vertical-align: middle;
-margin-bottom: 5px;
-font-size: 26rpx;
+
+.post-container .left .ydl{
+  font-size: 24rpx;
+  color: #aaaaaa;
+  width: 50%;
+  float: left;
+
 }
-.post-title{
-font-size: 34rpx;
-font-weight: 600;
-color: #333;
-margin-bottom: 10px;
-margin-left: 10px;
+.post-container .left .date{
+  text-align: right;
+  font-size: 28rpx;
+  color: #aaaaaa;
+  width: 50%;
+  float: left;
+
 }
-.post-image{
-width: 95%;
-height: 340rpx;
-margin: auto;
-margin-bottom: 15px;
-border-radius:12px
+
+.post-container .right{
+  text-align: right;
+  width: 40%;
 }
-.post-content{
-color: #666;
-font-size: 28rpx;
-margin-bottom: 20rpx;
-margin-left: 20rpx;
-letter-spacing: 2rpx;
-line-height: 40rpx;
-margin-right: 10rpx;
-}
-.post-like{
-font-size: 13px;
-flex-direction: row;
-line-height: 16px;
-margin-left: 10px;
-}
-.post-like-image{
-width: 16px;
-height: 16px;
-margin-right: 8px;
-vertical-align: middle;
-}
-.post-like-font{
-margin-right: 20px;
+
+.post-container .right .image{
+  width:240rpx;
+  height:165rpx;
+  border-radius: 10rpx;
 }

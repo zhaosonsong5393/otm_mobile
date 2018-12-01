@@ -14,19 +14,19 @@ swiper-item image {
 .detail {
   display: flex;
   flex-direction: column;
-  margin-top: 15rpx;
-  margin-bottom: 0rpx;
+  margin: 25rpx;
 }
 .detail .title {
   font-size: 40rpx;
   margin: 10rpx;
   color: black;
   text-align: justify;
+  font-weight:bold;
 }
 .detail .price {
   color: red;
   font-size: 40rpx;
-  margin: 10rpx;
+  margin: 0rpx;
 }
 .line_flag {
   width: 80rpx;
@@ -60,6 +60,9 @@ swiper-item image {
 .button-green {
   background-color: #4caf50; /* Green */
 }
+.button-zs{
+  background-color: #FFC63C;
+}
 .button-red {
   background-color: #f44336; /* 红色 */
 }
@@ -92,7 +95,6 @@ button {
   height: 100rpx;
 }
 text {
-  display: block;
   height: 60rpx;
   line-height: 60rpx;
   font-size: 30rpx;
@@ -100,6 +102,12 @@ text {
 }
 .text-remark-title{
   font-weight: bold;
+}
+
+.price-title{
+  line-height: 60rpx;
+  
+  margin: 10rpx;
 }
 
 .text-detail-title{

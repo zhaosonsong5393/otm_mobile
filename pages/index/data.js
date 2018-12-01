@@ -189,45 +189,14 @@ defaultData.data = {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:145.3125rpx;width:321.09375rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:35.15625rpx;top:35.15625rpx;",
       "content": "http://120.25.219.228:8000/images/index/hot_1.jpg",
-      "customFeature": {
-        "boxShadow": "5",
-        "boxColor": "#000",
-        "boxX": "0",
-        "boxY": "0",
-        "boxR": "5",
-        "action": "get-coupon",
-        "inner-page-link": "prePage",
-        "coupon-id": "555"
-      },
-      "animations": [],
-      "compId": "data.content[0]",
-      "parentCompid": "free_vessel5",
-      "itemType": "picture",
-      "itemParentType": "free-vessel",
-      "itemIndex": 0,
-      "eventParams": "{\"coupon_id\":\"555\"}",
-      "eventHandler": "tapGetCouponHandler"
+      "eventParams": "1",
+      "eventHandler": "on_activety_detail"
     }, {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:145.3125rpx;width:321.09375rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:391.40625rpx;top:35.15625rpx;",
       "content": "http://120.25.219.228:8000/images/index/hot_2.png",
-      "customFeature": {
-        "boxShadow": "5",
-        "boxColor": "#000",
-        "boxX": "0",
-        "boxY": "0",
-        "boxR": "5",
-        "action": "get-coupon",
-        "coupon-id": "556"
-      },
-      "animations": [],
-      "compId": "data.content[1]",
-      "parentCompid": "free_vessel5",
-      "itemType": "picture",
-      "itemParentType": "free-vessel",
-      "itemIndex": 1,
-      "eventParams": "{\"coupon_id\":\"556\"}",
-      "eventHandler": "tapGetCouponHandler"
+      "eventParams": "2",
+      "eventHandler": "on_activety_detail"
     }],
     "customFeature": {
       "boxColor": "rgb(0, 0, 0)",

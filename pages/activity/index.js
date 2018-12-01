@@ -31,6 +31,14 @@ var pageData = {
     //当逻辑执行完后关闭刷新    
     wx.stopPullDownRefresh()
   },
+
+  on_activety_detail: function (event){
+    let id = event.currentTarget.dataset.id
+    console.log("收到活动列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    wx.navigateTo({
+      url: 'detail?id=' + id,
+    })
+  }
 };
 Page(pageData);
 
