@@ -1,0 +1,24 @@
+  <!-- 图片观赏 -->
+  <view class="ele-container">
+    <swiper indicator-dots="true" circular="true" autoplay="true" interval="3000" duration="750" class="banner" >
+      <block wx:for="{{hot_image.content}}">
+        <swiper-item data-id="{{item.id}}" catchtap="on_detail">
+          <image class="swiper-item" src="{{item.pic}}" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 图片观赏 END -->
+
+  <view class="body">
+    <block wx:for="{{hot_image.content}}">
+      <view class="item">
+          <image class="img" src="{{item.pic}}"></image>
+          <text class="name">{{item.name}}</text>
+      </view>
+     </block>
+  </view>
+  <view class="footer">
+    　
+  </view>

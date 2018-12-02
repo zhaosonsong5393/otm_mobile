@@ -397,6 +397,15 @@
   <!-- 人气商品 内容 END -->
 
   <!-- 图片观赏 -->
+  <template name="banner">
+    <swiper indicator-dots="true" circular="true" autoplay="true" vertical="{{data.customFeature.vertical}}" interval="2000" duration="750" style="{{data.style}}">
+      <block wx:for="{{data.content}}">
+        <swiper-item data-id="{{item.id}}" catchtap="on_media">
+          <image class="swiper-item" src="{{item.pic}}" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </template>
   <view class="ele-container">
     <template is="banner" data="{{data:hot_image}}"></template>
   </view>

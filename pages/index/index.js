@@ -99,6 +99,13 @@ var pageData = {
     wx.navigateTo({
       url: '../../pages/activity/detail?id=' + id,
     })
+  },
+  on_media : function (event) {
+    let id = event.currentTarget.dataset.id
+    console.log("收到媒体列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    wx.navigateTo({
+      url: '../../pages/media/index?id=' + id,
+    })
   }
 };
 Page(pageData);

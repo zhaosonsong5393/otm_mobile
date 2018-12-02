@@ -382,37 +382,14 @@ defaultData.data = {
     "compId": "free_vessel10"
   },
   "hot_image": {
-    "type": "carousel",
     "style": "height:234.375rpx;margin-left:auto;margin-right:auto;margin-top:11.71875rpx;opacity:1;",
     "content": [{
+      "id" : 1,
       "pic": "http://120.25.219.228:8000/images/index/footer_1.jpg",
-      "content": "",
-      "parentCompid": "carousel11",
-      "style": "",
-      "itemType": null,
-      "itemParentType": "carousel",
-      "itemIndex": 0,
-      "eventParams": "1",
-      "eventHandler": "onProductDetail"
     }, {
-
+       "id": 2,
       "pic": "http://120.25.219.228:8000/images/index/footer_2.jpg",
-      "content": "",
-      "parentCompid": "carousel11",
-      "style": "",
-      "itemType": null,
-      "itemParentType": "carousel",
-      "itemIndex": 1,
-      "eventParams": "1",
-      "eventHandler": "onProductDetail"
-    }],
-    "customFeature": {
-      "autoplay": true,
-      "interval": 2
-    },
-    "animations": [],
-    "page_form": "",
-    "compId": "hot_image"
+    }]
   },
 }
 export default defaultData;
