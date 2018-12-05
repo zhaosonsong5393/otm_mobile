@@ -85,6 +85,7 @@
 .answer-content{
     padding: 30rpx 40rpx;
     background: #ffffff;
+    line-height: 40rpx;
 }
 .answer-content text{
     font-size: 32rpx;

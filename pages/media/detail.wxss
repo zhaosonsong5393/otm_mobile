@@ -2,19 +2,10 @@ page{
 
   background: #f6f6f6;
 }
-.banner{
-  height:430rpx;
-  margin-left:auto;
-  margin-right:auto;
-  opacity:1;
-}
 
 .body .item{
-  float: left;
-  margin-left: 25rpx;
+  margin: 25rpx;
   margin-top:30rpx;
-  width: 335rpx;
-  height: 370rpx;
   text-align: center;
   letter-spacing:5rpx;
   background: #fff;
@@ -22,15 +13,9 @@ page{
 
 .body .item .img{
   margin-top: 25rpx;
-  width: 300rpx;
-  height: 250rpx;
   margin-bottom: 15rpx;
   border-radius: 5px;
   border: 1px solid #e4e4e4;
-}
-.body .item .name{
-  border-bottom: 1px solid #feca05;
-  padding-bottom: 10rpx;
 }
 
 .footer{

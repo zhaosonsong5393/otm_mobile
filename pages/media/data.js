@@ -32,7 +32,7 @@ defaultData.data = {
         "name": "婴儿游泳",
       },
       {
-        "id": 4,
+        "id": 5,
         "pic": "http://120.25.219.228:8000/images/index/banner1.jpg",
         "name": "婴儿游泳",
       }]

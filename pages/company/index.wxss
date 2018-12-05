@@ -1,0 +1,88 @@
+.body{
+  margin: 30rpx;
+}
+.big_img{
+  margin-top: 30rpx;
+}
+.big_img .img{
+  width: 100%;
+}
+
+.title{
+  margin-top: 30rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70rpx;
+  
+}
+.small_title {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+.title .back{
+  width: 210px;
+  height: 73px;
+  background: url("http://120.25.219.228:8000/images/qyjs/qy_title.png");
+  margin: auto;
+  line-height: 73px;
+}
+
+.qy_start{
+  margin-top: 49rpx;
+}
+
+.qy_start .qy_c1{
+  width: 60px;
+  height: 35px;
+}
+.qy_end{
+  width: 100%;
+  text-align: right;
+}
+.qy_end .qy_c2{
+  width: 60px;
+  height: 35px;
+}
+
+.content{
+  letter-spacing:3rpx;
+  font-size: 30rpx;
+  line-height: 45rpx;
+}
+
+.content_img{
+  text-align: center;
+}
+
+.content_img image{
+  width: 100%;
+}
+.content_img_1{
+  margin-top: 30rpx;
+}
+.content_img_2{
+  margin-top: 100rpx;
+}
+
+.hxxm{
+  font-weight: bold;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.hxxm_item{
+  font-weight: bold;
+  font-size: 28rpx;
+  width: 150rpx;
+  display: block;
+  text-align: right;
+  float: left;
+}
+.hxxm_content{
+  font-size: 28rpx;
+  display: block;
+  float: left;
+  width: 500rpx;
+}

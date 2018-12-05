@@ -1,0 +1,48 @@
+<view class="body">
+
+  <view class="big_img">
+    <image class="img" src="http://120.25.219.228:8000/images/qyjs/index.jpg"></image>
+  </view>
+
+  <view class="title">
+    <view class="back">集团介绍</view>
+  </view>
+   <view class="qy_start"><image class="qy_c1" src='/images/qy_c1.png'></image></view>
+  <view class="content">　　欧缇蔓国际医美产康中心，汇聚了孕产妇专家精英的管理团队，借鉴台式月子体系和中国传统月子古方、验方成果，拥有行业十余年的护理、健康管理实践经验。欧缇蔓国际医美产康中心隶属于北京今日龙翔国际商贸有限公司，中心秉承“创造美、传播美”的宗旨，以“服务中国女性，发掘中国女性极致之美”为终极使命，一直精于美容养身产品的研发、生产、销售及母婴护理，5维深度母婴护理，7度术养疗愈产康，历经二十年的市场销售，得到广大消费者的一致好评，更被业内人士高度认可。        
+  </view>
+   <view class="qy_end"><image class="qy_c2" src='/images/qy_c2.png'></image></view>
+
+
+
+  <view  class="big_img">
+    <image  class="img" src="http://120.25.219.228:8000/images/qyjs/longxiang.jpg"></image>
+  </view>
+   <view  class="title"><view class="back">成立背景</view></view>
+   <view class="qy_start"><image class="qy_c1" src='/images/qy_c1.png'></image></view>
+
+   <view class="small_title" >多产业融合</view>
+   <view  class="content">　　将现今月子会所2.0运营模式转型升级3.0运营模式，实施从集中护理、月嫂护理、简单护理为主，传统宝宝和产妇护理向高端月子房、无菌净化修养、医护养食居康相结合，创新智能科技宝宝护理系统的产康恢复体系，专业多元化团队、定制化护理发展孕前多重养护理念、塑造年轻辣妈、守护健康身心。
+   </view>
+   <view class="qy_end"><image class="qy_c2" src='/images/qy_c2.png'></image></view>
+
+
+   
+   <view class="title"><view class="back">资质荣誉</view></view>
+ <view  class="content content_img">　
+    <image class="content_img_1" src="http://120.25.219.228:8000/images/qyjs/j_1.png"></image>
+  
+    <image class="content_img_2"  src="http://120.25.219.228:8000/images/qyjs/j_2.png"></image>
+  </view>
+
+
+  <view class="title"><view class="back">特色服务</view></view>
+  <view class="qy_start"><image class="qy_c1" src='/images/qy_c1.png'></image></view>
+  <view class="content">　　提供高标准护理环境、阶梯性食疗方案、专业的产康体系、科学的宝宝护理，将服务量化制度、护理专业制度、安全保险制度、产后康复制度和个性化定制相结合</view>
+  <view class="content hxxm">我们具备产业链式核心项目:</view>
+<view class="content "><label class="hxxm_item">月子修养：</label><text class="hxxm_content">新风除霾系统、安全保障系统、感染控制流程</text></view>
+<view class="content "><label class="hxxm_item">移动月子：</label><text class="hxxm_content">移动养护、高端私护、上门养护、外送月子餐</text></view>
+<view class="content "><label class="hxxm_item">产康修复：</label><text class="hxxm_content">食养、药养和护养结合、乳房管理、骨盆管理、私密内雕等近百种特色服务</text></view>
+<view class="content "><label class="hxxm_item">宝宝护理：</label><text class="hxxm_content">宝宝游泳、宝宝早教、宝宝护理</text></view>
+<view class="content "><label class="hxxm_item">月子餐：</label><text class="hxxm_content">月子三宝、四阶段功能汤、月子养生饮</text></view>
+<view class="qy_end"><image class="qy_c2" src='/images/qy_c2.png'></image></view>
+</view>

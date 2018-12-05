@@ -6,7 +6,7 @@
   padding: 30rpx;
   letter-spacing:3rpx;
   display: flex;
-  border-bottom: 25rpx solid #D0D0D7
+  border-bottom: 25rpx solid #f6f6f6
 }
 
 .post-container .left{

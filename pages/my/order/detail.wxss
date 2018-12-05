@@ -37,6 +37,8 @@ page {
 
 .recipient .content view .text{
   width: 80%;
+  line-height: 40rpx;
+  letter-spacing:3rpx;
 }
 
 .recipient .content view .status{

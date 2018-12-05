@@ -69,6 +69,10 @@ var pageData = {
       wx.navigateTo({
         url: '../../pages/activity/index?id=' + id,
       })
+    } else if (id == 8) {
+      wx.navigateTo({
+        url: '../../pages/company/index',
+      })
     }else{
       wx.navigateTo({
         url: '../../pages/classify_list/index?id=' + id,

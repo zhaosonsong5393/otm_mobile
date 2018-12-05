@@ -1,0 +1,16 @@
+
+  <!-- 图片观赏 END -->
+
+  <view class="body">
+     <view class="item">
+        <video class="img"  src="http://www.w3school.com.cn//i/movie.mp4" binderror="videoErrorCallback"></video>
+      </view>
+    <block wx:for="{{hot_image.content}}">
+      <view class="item">
+          <image class="img" src="{{item.pic}}"></image>
+      </view>
+     </block>
+      
+  </view>
+  <view class="footer">
+  </view>
