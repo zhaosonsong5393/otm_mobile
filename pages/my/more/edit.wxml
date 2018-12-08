@@ -18,7 +18,11 @@
     </view>
     <view class='item'>
       <text class='left'>预　产期<text class="emity">*</text>：</text>
-      <input class='right' placeholder="请输入您的预产期"  placeholder-class="place" name="name" />
+        <picker mode="date" value="{{date}}" start="2017-01-01" end="2050-12-31" bindchange="changeDate">
+            <view class="tui-picker-detail right">
+            {{date}}
+            </view>
+        </picker>
     </view>
     <view class='item'>
       <text class='left'>手机号码<text class="emity">*</text>：</text>
@@ -44,7 +48,7 @@
     </view>
     <view class='item'>
       <text class='left'>备　　用<text class="emity">*</text>：</text>
-      <input class='right' placeholder="请输入您的备用"  placeholder-class="place" name="name" />
+      <input class='right' placeholder="请输入您的备用收货人"  placeholder-class="place" name="name" />
     </view>
     <view class='item'>
       <text class='left'>手机号码<text class="emity">*</text>：</text>

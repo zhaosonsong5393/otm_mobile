@@ -14,6 +14,14 @@
         <label class="ico-moon icon-rightarrow">
         </label>
       </view>
+       <view class="info" data-open-verify-phone="false" >
+             <view class="balance">
+                余额：￥<text>100</text>
+             </view>
+             <view class="point">
+                积分：<text>0</text>
+             </view>
+          </view>
       <view class="horizontal-view">
         <view class="horizontal-router-container1">
           <view data-open-verify-phone="false" data-router="myIntegral"  bindtap='list_click'  style="margin-top: -1px">
@@ -23,6 +31,7 @@
             <label class="ico-moon icon-rightarrow">
             </label>
           </view>
+
           <view data-open-verify-phone="false" data-router="notice" bindtap='list_click' style="margin-top: -1px">
             <label class="ico-moon icon-notify">
             </label>
@@ -37,13 +46,13 @@
             <label class="ico-moon icon-rightarrow">
             </label>
           </view>
-          <view data-open-verify-phone="false" data-router="myIntegral"  bindtap='list_click'  style="margin-top: -1px">
+          <!-- <view data-open-verify-phone="false" data-router="myIntegral"  bindtap='list_click'  style="margin-top: -1px">
             <label class="ico-moon icon-delicious">
             </label>
             <text>我的收藏</text>
             <label class="ico-moon icon-rightarrow">
             </label>
-          </view>
+          </view> -->
           
         </view>
       </view>

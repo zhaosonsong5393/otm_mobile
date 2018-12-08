@@ -1,8 +1,10 @@
 {
   "pages": [
     "pages/login/index",
+    "pages/my/index",
+    "pages/goods/detail",
+    "pages/serve/index",
     "pages/news/detail",
-    "pages/my/notice/index",
     "pages/company/index",
     "pages/media/index",
     "pages/media/detail",
@@ -11,14 +13,13 @@
     "pages/activity/index",
     "pages/classify/index",
     "pages/index/index",
-    "pages/my/index",
+    "pages/my/notice/index",
     "pages/my/order/detail",
     "pages/my/order/index",
     "pages/my/more/edit",
     "pages/my/more/index",
     "pages/classify_list/index",
     "pages/map/index",
-    "pages/goods/detail",
     "pages/cart/index"
   ],
   "window": {

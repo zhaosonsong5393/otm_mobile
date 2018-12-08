@@ -110,6 +110,13 @@ var pageData = {
     wx.navigateTo({
       url: '../../pages/media/index?id=' + id,
     })
+  },
+  on_serve_detail: function (event){
+    let id = event.currentTarget.dataset.id
+    console.log("收到套餐列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    wx.navigateTo({
+      url: '../../pages/serve/index?id=' + id,
+    })
   }
 };
 Page(pageData);

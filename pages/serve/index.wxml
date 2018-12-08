@@ -1,0 +1,64 @@
+<view class="container">
+  <view class="header">
+    <view class="name">
+      母子富贵豪华套餐
+    </view>
+      <view class="total_price">
+      价　格:　￥<text class="price_content">27000</text>
+    </view>
+    <view class="dj_price">
+      订　金:　￥<text class="price_content">3000</text>
+    </view>
+  </view>
+
+  <view class="body">
+      <view class="img"> 
+        <view class="title"> 服务图集 </view>
+        <view class="content"> 
+          <swiper indicator-dots="true" circular="true" autoplay="true" interval="3000" duration="750" class="banner" >
+            <block wx:for="{{hot_image.content}}">
+              <swiper-item data-id="{{item.id}}" catchtap="on_detail">
+                <image class="swiper-item" src="{{item.pic}}" />
+              </swiper-item>
+            </block>
+          </swiper>
+        </view>
+      </view>
+
+      <view class="text">
+        <view class="title"> 服务简介 </view>
+        <view class="content"> 
+              对于准妈妈来说，剖腹产的一大好处是不需要忍受剧烈的分娩疼痛。在可以选择顺产的情况下，更建议准妈妈选择顺产。剖腹产毕竟是手术，对妈妈身体伤害比顺产大。其中
+        </view>
+      </view>
+
+      <view class="date"> 
+         <text>请选择日期</text>
+          <label class="">
+           <picker mode="date" value="{{date}}" start="2017-01-01" end="2050-12-31" bindchange="changeDate">
+              <view class="tui-picker-detail">
+              {{date}}
+              </view>
+          </picker>
+          </label>
+      </view>
+      <view class="time"> 
+         <text>请选择时间</text>
+          <label class="">
+            <picker mode="time" value="{{time}}" start="09:00" end="17:30" bindchange="changeTime">
+              <view class="tui-picker-detail">
+                {{time}} 
+              </view>
+            </picker>
+          </label>
+      </view>
+  </view>
+ <view class="clear">
+    　
+  </view>
+   <view class="detail-nav">
+      <view class="btn-zf" catchtap='on_order'>
+           立即预约
+      </view>
+  </view>
+</view>

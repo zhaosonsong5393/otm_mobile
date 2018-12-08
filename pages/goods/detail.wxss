@@ -69,6 +69,22 @@ swiper-item image {
 .image_detail {
   width: 95%;
 }
+
+ .remark{
+  
+   padding: 32rpx;
+  border-top: 3px solid #f0ecec;
+}
+
+ .remark .title{
+   font-size: 30rpx;
+}
+
+ .remark .content{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: #9b9b9b;
+}
 button {
   color: white;
   text-align: center;

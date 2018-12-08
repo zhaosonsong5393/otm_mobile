@@ -1,3 +1,6 @@
+
+var appInstance = getApp();
+var util = require('../../../utils/util.js');
 Page({
 
   /**
@@ -15,8 +18,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var stu = wx.getStorageSync('student');
-    this.setData({ myinfo: stu });
+    var date = util.formatDate(new Date());
+    this.setData({
+      date: date,
+    });
+
     // console.log(this.data.myinfo);
   },
   exit: function (e) {
@@ -37,7 +43,9 @@ Page({
       }
     })
   },
-
+  changeDate(e) {
+    this.setData({ date: e.detail.value });
+  },
   on_edit: function (e) {
     var no = this.data.myinfo.no;
     wx.showToast({

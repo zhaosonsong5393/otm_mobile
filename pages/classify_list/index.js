@@ -6,17 +6,24 @@ var pageData = {
   data: defaultData.data,
   need_login: false,
 
-  onLoad: function(e) {},
+  onLoad: function (e) {
+  },
   // 点击下拉列表
-  typeChange: function(e) {
+  typeChange: function (e) {
     this.setData({
       type_index: e.detail.value
     })
   },
-  sortChange: function(e) {
+  sortChange: function (e) {
     this.setData({
       sorts_index: e.detail.value
     })
+  },
+  /**
+  * 用户点击右上角分享
+  */
+  onShareAppMessage: function () {
+
   },
   /**
   * 页面相关事件处理函数--监听用户下拉动作
@@ -27,19 +34,22 @@ var pageData = {
     //当逻辑执行完后关闭刷新    
     wx.stopPullDownRefresh()
   },
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function() {
-
-  },
   onProductDetail: function (event) {
     let id = event.currentTarget.dataset.id
-    console.log("收到商品列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    let type = event.currentTarget.dataset.type
+    console.log("收到商品列表参数:" + JSON.stringify(event.currentTarget.dataset))
     console.log(wx);
-    wx.navigateTo({
-      url: '../../pages/goods/detail?id=' + id,
-    })
+    if (type == 1) {
+      wx.navigateTo({
+        url: '../../pages/serve/index?id=' + id,
+      })
+    } else {
+      wx.navigateTo({
+        url: '../../pages/goods/detail?id=' + id,
+      })
+    }
+
   }
 };
 Page(pageData);
+

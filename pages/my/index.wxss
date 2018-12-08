@@ -1,1 +1,21 @@
 page{background-color:f6f6f6;margin-left:auto;}
+.info{
+  height: 100rpx;
+  color: #666;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.info .balance{
+  width: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  border-right: 1px solid #eee;
+}
+
+
+.info .point{
+  width: 50%;
+  text-align: center;
+  line-height: 100rpx;
+}

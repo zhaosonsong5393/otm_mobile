@@ -12,6 +12,12 @@
     <view class="price-title">原　价： <text class="">￥28888</text></view>
     <view class="price-title">折后价： <text class="discount_price price">￥10000</text></view>
   </view>
+   <view class="remark">
+        <view class="title"> 商品简介 </view>
+        <view class="content"> 
+              对于准妈妈来说，剖腹产的一大好处是不需要忍受剧烈的分娩疼痛。在可以选择顺产的情况下，更建议准妈妈选择顺产。剖腹产毕竟是手术，对妈妈身体伤害比顺产大。其中
+        </view>
+    </view>
   <view class="separate"></view>
   <view class='detail-bottom-box'>
     <view class='tabs-box'>

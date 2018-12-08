@@ -346,37 +346,37 @@ defaultData.data = {
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:234.375rpx;width:217.96875rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:35.15625rpx;top:35.15625rpx;",
       "content": "http://120.25.219.228:8000/images/index/recommend_1.jpg",
       "eventParams": "1",
-      "eventHandler": "onProductDetail"
+      "eventHandler": "on_serve_detail"
     }, {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:234.375rpx;width:217.96875rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:267.1875rpx;top:35.15625rpx;",
       "content": "http://120.25.219.228:8000/images/index/recommend_2.jpg",
       "eventParams": "1",
-      "eventHandler": "onProductDetail"
+      "eventHandler": "on_serve_detail"
     }, {
       "type": "picture",
       "style": "opacity:1;background-color:transparent;border-color:rgb(34, 34, 34);border-style:none;height:234.375rpx;width:210.9375rpx;margin-left:auto;margin-right:0;margin-top:0;position:absolute;left:499.21875rpx;top:35.15625rpx;",
       "content": "http://120.25.219.228:8000/images/index/recommend_3.jpg",
       "eventParams": "1",
-      "eventHandler": "onProductDetail"
+        "eventHandler": "on_serve_detail"
     }, {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:28.125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:98.4375rpx;top:283.59375rpx;margin-right:0;",
       "content": "欧式套房",
       "eventParams": "1",
-      "eventHandler": "onProductDetail"
+        "eventHandler": "on_serve_detail"
     }, {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:28.125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:325.78125rpx;top:283.59375rpx;margin-right:0;",
       "content": "居家式套房",
       "eventParams": "1",
-      "eventHandler": "onProductDetail"
+        "eventHandler": "on_serve_detail"
     }, {
       "type": "text",
       "style": "background-color:rgba(0, 0, 0, 0);border-color:rgb(34, 34, 34);border-style:none;border-width:4.6875rpx;color:rgb(51, 51, 51);font-size:28.125rpx;height:44.53125rpx;line-height:44.53125rpx;margin-left:auto;margin-top:0;opacity:1;text-align:left;position:absolute;left:567.1875rpx;top:283.59375rpx;margin-right:0;",
       "content": "萌萌哒套房",
       "eventParams": "1",
-      "eventHandler": "onProductDetail"
+        "eventHandler": "on_serve_detail"
     }],
 
     "compId": "free_vessel10"

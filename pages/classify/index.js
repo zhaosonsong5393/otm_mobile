@@ -36,11 +36,19 @@ var pageData = {
   },
   onProductDetail: function (event) {
     let id = event.currentTarget.dataset.id
-    console.log("收到商品列表参数:" + JSON.stringify(event.currentTarget.dataset.id))
+    let type = event.currentTarget.dataset.type
+    console.log("收到商品列表参数:" + JSON.stringify(event.currentTarget.dataset))
     console.log(wx);
-    wx.navigateTo({
-      url: '../../pages/goods/detail?id=' + id,
-    })
+    if (type==1){
+      wx.navigateTo({
+        url: '../../pages/serve/index?id=' + id,
+      })
+    }else{
+      wx.navigateTo({
+        url: '../../pages/goods/detail?id=' + id,
+      })
+    }
+    
   }
 };
 Page(pageData);
