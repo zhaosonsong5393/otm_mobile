@@ -4,7 +4,10 @@
       母子富贵豪华套餐
     </view>
       <view class="total_price">
-      价　格:　￥<text class="price_content">27000</text>
+      原　价:　￥<text class="price_content">27000</text>
+    </view>
+      <view class="total_price">
+      折扣价:　￥<text class="price_content">27000</text>
     </view>
     <view class="dj_price">
       订　金:　￥<text class="price_content">3000</text>
